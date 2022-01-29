@@ -1,6 +1,8 @@
 .jumbotron {
     background-image: url(../assets/boardgamebackground.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 90vh;
     width: 100%;
     color: white;

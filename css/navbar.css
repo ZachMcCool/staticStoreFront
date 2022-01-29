@@ -61,8 +61,8 @@
     padding: 8px;
     text-decoration: none;
     color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .cnav a:hover {
@@ -119,8 +119,17 @@
     top: -.5rem;
 }
 
-.cnav a:hover{
+.csubnav a:hover {
+    color: grey;
+}
+
+.csubnav a:hover{
     color: white;
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 700px) {
+    .searchbar {
+      display: none;
+    }
+  }

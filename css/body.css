@@ -58,9 +58,49 @@ body {
 footer {
     padding: .5rem;
     height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;   
+    }
+
+.icons {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
 }
+.fa {
+    padding: 0 20px;
+    font-size: 1.5rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    color: grey;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    color: grey;
+  }
+
+   /* Instagram */
+   .fa-instagram {
+    color: grey;
+  }
+
+  /* Youtube */
+  .fa-youtube {
+    color: grey;
+  }

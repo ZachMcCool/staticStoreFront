@@ -1,0 +1,126 @@
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    z-index: 1;    
+}
+
+.navbrand{
+    font-size: 1.5rem;
+    
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.form-control {
+    width: 15rem;
+}
+
+.nav.item {
+    display: hidden;
+}
+
+.cnavcontainer {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 2.5rem;
+    z-index: 2;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Sedgwick Ave', cursive;
+    text-transform: capitalize;
+    background-color: #242638;
+    color: white;
+    text-decoration: none;
+    display: inline;
+
+}
+
+
+.cnav ul {
+    display: inline;
+    list-style: none;
+}
+
+.cnav li {
+    float: right;
+    border-left: 1px solid white;
+
+}
+
+.cnav li:hover {
+    background-color: white;
+    transition: ease .25s;
+}
+
+.cnav a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cnav a:hover {
+    color: #242638;
+    transition: ease .25s;
+}
+
+.navbrand {
+    display: inline;
+    margin-left: 3rem;
+    position: relative;
+    top: .35rem;
+}
+
+
+.searchbar {
+    position: fixed;
+    display: inline;
+    width: 20rem;    
+    /* background-color: red; */
+    text-align: center;
+    padding: .25rem;
+}
+
+.searchbtn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+    position: fixed;
+    display: inline;
+    margin: 0 .5rem;
+    padding: .1rem 1rem
+}
+
+.searchbtn:hover {
+    background-color: white;
+    color: #242638;
+    display: inline;
+}
+
+.csubnav {
+    padding-top: 2.5rem;
+    background-color: #313131;
+    height: 4rem;
+    font-size: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.csubnav a {
+    position: relative;
+    top: -.5rem;
+}
+
+.cnav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+

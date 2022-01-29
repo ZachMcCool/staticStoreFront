@@ -1,0 +1,66 @@
+body {
+    width: 100%;
+}
+.s1 {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Sedgwick Ave', cursive;
+
+}
+
+.s1 h1 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.s1 p {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-family: sans-serif;
+}
+
+.cardsContainer {
+    height: 100vh;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    align-items: baseline;
+}
+.card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    transition: all .15s ease-in-out;
+    transform: scale(1.2);
+}
+.card img {
+    height: 18rem;
+    margin: auto;
+    object-fit: contain;
+    margin-top: 1rem;
+
+
+}
+
+footer {
+    padding: .5rem;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
